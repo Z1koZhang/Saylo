@@ -1,0 +1,9 @@
+jieba
+requests
+numpy
+torch
+sentence-transformers
+uiautomation
+pywinauto
+cryptography
+Pillow

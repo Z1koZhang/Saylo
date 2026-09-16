@@ -1,0 +1,37 @@
+# Python / editors
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# Credentials — never commit, even when encrypted
+.env
+.env.*
+!.env.example
+*.key
+assistant/secrets.json
+assistant/secrets.enc
+
+# Private conversations, memories and runtime state
+assistant/store/*
+!assistant/store/.gitkeep
+*.jsonl
+*.npy
+*.npz
+*.log
+*.pid
+*.dmp
+
+# Local corpora and screenshots
+语料/
+corpus/
+screenshots/
+assistant/screenshots/
+
+# Build output
+build/
+dist/
+*.spec
+
